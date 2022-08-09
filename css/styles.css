@@ -1,0 +1,200 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+  --main-bg-color: #ffffff;
+  --letter-spacing: 0.03em;
+  --main-indent-padding: 94px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
+}
+/* Стилі утіліти */
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+/* -------------------------- */
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--accent-color);
+}
+
+/* Стилі для header */
+
+.logo-header {
+  color: #000000;
+}
+
+.site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+.current-link {
+  color: var(--accent-color);
+}
+
+.header-contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-color);
+}
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/* Стилі секції Герой */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* Стилі секциї Features */
+.features-title {
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
+
+.features-text {
+  line-height: 1.71;
+
+  color: var(--secondary-color);
+}
+/* Загальний стиль для заголовків секції */
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Стилі секції Projects */
+
+/* Стилі для секції Team */
+.team {
+  background-color: #f5f4fa;
+}
+.team-list-title {
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.18;
+
+  color: var(--secondary-color);
+}
+/* Стилі для Footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.footer-link {
+  font-style: normal;
+  line-height: 1.71;
+
+  color: #ffffff;
+}
+
+.footer-contacts {
+  line-height: 1.71;
+  font-style: normal;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Сторінка Portfolio */
+
+.filter-btn {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+  background-color: #f5f4fa;
+
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.current-btn {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--secondary-color);
+}
