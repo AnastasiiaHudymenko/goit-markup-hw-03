@@ -37,6 +37,9 @@ body {
 }
 
 /* Стилі для header */
+.hero {
+  text-align: center;
+}
 
 .logo-header {
   color: #000000;
