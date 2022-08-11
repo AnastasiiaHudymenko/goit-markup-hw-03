@@ -10,8 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
@@ -53,7 +52,7 @@
       <section class="features section">
 
         <div class="container">
-          <h2 class="title">Наші особливості</h2>
+          <h2 class="visually-hidden">Наші особливості</h2>
         <ul class="list features-list">
           <li class="features-item">
             <h3 class="features-title">Увага до деталей</h3>
@@ -121,57 +120,76 @@
       </section>
       <!-- Our team -->
       <section class="team section">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="list team-list">
-          <li>
-            <img
-              src="./images/men-1.jpg"
-              alt="чолвік в окулярах і сорочці"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-list-title">Ігор Дем'яненко</h3>
-            <p class="team-list-text" lang="en">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./images/women-2.jpg"
-              alt="дівчина в окулярах"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-list-title">Ольга Рєпіна</h3>
-            <p class="team-list-text" lang="en">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/men-3.jpg"
-              alt="чоловік в синій сорочці"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-list-title">Микола Тарасов</h3>
-            <p class="team-list-text" lang="en">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/men-4.jpg"
-              alt="чоловік в окулярах і чорній футболці"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-list-title">Михайло Єрмаков</h3>
-            <p class="team-list-text" lang="en">UI Designer</p>
-          </li>
-        </ul>
+
+        <div class="container">
+
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="list team-list">
+            <li class="team-item">
+              <img
+                src="./images/men-1.jpg"
+                alt="чолвік в окулярах і сорочці"
+                width="270"
+                height="260"
+              />
+              <div class="wrapper-team">
+                <h3 class="team-list-title">Ігор Дем'яненко</h3>
+              <p class="team-list-text" lang="en">Product Designer</p>
+              </div>
+              
+            </li>
+            <li class="team-item">
+              <img
+                src="./images/women-2.jpg"
+                alt="дівчина в окулярах"
+                width="270"
+                height="260"
+              />
+              <div class="wrapper-team">
+                <h3 class="team-list-title">Ольга Рєпіна</h3>
+              <p class="team-list-text" lang="en">Frontend Developer</p>
+              </div>
+              
+            </li>
+            <li class="team-item">
+              <img
+                src="./images/men-3.jpg"
+                alt="чоловік в синій сорочці"
+                width="270"
+                height="260"
+              />
+              <div class="wrapper-team">
+                <h3 class="team-list-title">Микола Тарасов</h3>
+              <p class="team-list-text" lang="en">Marketing</p>
+              </div>
+              
+            </li>
+            <li class="team-item">
+              <img
+                src="./images/men-4.jpg"
+                alt="чоловік в окулярах і чорній футболці"
+                width="270"
+                height="260"
+              />
+              <div class="wrapper-team">
+                <h3 class="team-list-title">Михайло Єрмаков</h3>
+              <p class="team-list-text" lang="en">UI Designer</p>
+              </div>
+              
+            </li>
+          </ul>
+        </div>
+       
       </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <a class="link logo" href="./index.html">Web<span class="logo-footer">Studio</span> </a>
+      
+      <div class="container">
+        <a class="link logo" href="./index.html">Web<span class="logo-footer">Studio</span> </a>
       <address>
         <ul class="list footer-list">
-          <li>
+          <li class="footer-item">
             <a class="link footer-link"
               href="https://goo.gl/maps/osZWfCpVYim8cWyT9"
               rel="noopener noreferrer nofollow"
@@ -179,10 +197,12 @@
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a class="link footer-contacts" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="link footer-contacts" href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li class="footer-item"><a class="link footer-contacts" href="mailto:info@example.com">info@example.com</a></li>
+          <li class="footer-item"><a class="link footer-contacts" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
+      </div>
+      
     </footer>
   </body>
 </html>
