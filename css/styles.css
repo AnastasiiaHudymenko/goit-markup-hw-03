@@ -13,6 +13,8 @@ body {
   letter-spacing: var(--letter-spacing);
   color: var(--main-color);
 }
+
+
 /* Стилі утіліти */
 
 .list {
@@ -26,7 +28,24 @@ body {
   text-decoration: none;
   color: currentColor;
 }
+
+
+
 /* -------------------------- */
+
+
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -36,16 +55,49 @@ body {
   color: var(--accent-color);
 }
 
-/* Стилі для header */
-.hero {
+/* Загальний стиль для заголовків секції */
+.section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-size: 36px;
+  line-height: 1.16;
   text-align: center;
+}
+
+/* Стилі для header */
+
+.header-flex-container {
+  display: flex;
+  align-items: center;
+}
+
+/* -----навигація ------*/
+.site-nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo-header {
   color: #000000;
 }
 
+.site-nav__list {
+  display: flex;
+  margin-left: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.site-nav__item {
+  margin-right: 50px;
+}
+.site-nav__item:last-child {
+  margin-right: 0;
+}
+
 .site-nav-link {
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -59,7 +111,21 @@ body {
   color: var(--accent-color);
 }
 
+/* ----контакти хедера */
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-contacts__item {
+  margin-right: 50px;
+}
+.header-contacts__item:last-child {
+  margin-right: 0;
+}
+
 .header-contacts-link {
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -75,10 +141,17 @@ body {
 /* Стилі секції Герой */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  text-align: center;
   background-color: #2f303a;
 }
 
+
 .hero-title {
+  max-width: 696px;
+  margin: 0 auto 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -90,6 +163,9 @@ body {
 }
 
 .hero-btn {
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: transparent;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
@@ -101,7 +177,25 @@ body {
 }
 
 /* Стилі секциї Features */
+.title {
+  margin: 0;
+  display: none;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+}
+
+.features-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-right: 30px;
+}
+
 .features-title {
+  margin-bottom: 10px;
+  margin-top: 0;
   font-size: 14px;
   line-height: 1.14;
 
@@ -109,18 +203,30 @@ body {
 }
 
 .features-text {
+  margin: 0;
+
   line-height: 1.71;
 
   color: var(--secondary-color);
 }
-/* Загальний стиль для заголовків секції */
-.section-title {
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
+
 
 /* Стилі секції Projects */
+
+.projects {
+  padding-top: 0;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+.projects-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+}
+
 
 /* Стилі для секції Team */
 .team {

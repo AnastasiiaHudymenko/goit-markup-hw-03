@@ -12,61 +12,70 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <!-- Header -->
     <header class="header">
-      <nav class="site-nav" >
-        <a class="link logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
-        <ul class="list site-nav-list">
-          <li>
-            <a class="link site-nav-link current-link" href="./index.html">Студія</a>
-          </li>
-          <li>
-            <a class="link site-nav-link " href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li>
-            <a class="link site-nav-link " href="">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="list header-contacts">
-        <li><a class="link header-contacts-link " href="malito:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link header-contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      <div class="container">
+        <div class="header-flex-container">
+          <nav class="site-nav" >
+            <a class="link logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
+            <ul class="list site-nav__list">
+              <li class="site-nav__item">
+                <a class="link site-nav-link current-link" href="./index.html">Студія</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="link site-nav-link " href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="link site-nav-link " href="">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="list header-contacts">
+            <li class="header-contacts__item"><a class="link header-contacts-link " href="malito:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="header-contacts__item"><a class="link header-contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <!-- Hero -->
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="hero-btn" type="button">Замовити послугу</button>
+        </div>
       </section>
       <!-- Features -->
-      <section class="features">
-        <h2 class="title">Наші особливості</h2>
+      <section class="features section">
+
+        <div class="container">
+          <h2 class="title">Наші особливості</h2>
         <ul class="list features-list">
-          <li>
+          <li class="features-item">
             <h3 class="features-title">Увага до деталей</h3>
             <p class="features-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="features-title">Пунктуальність</h3>
             <p class="features-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="features-title">Планування</h3>
             <p class="features-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="features-title">Сучасні технології</h3>
             <p class="features-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -74,12 +83,16 @@
             </p>
           </li>
         </ul>
+        </div>
+        
       </section>
       <!-- Чим займаємось -->
-      <section class="projects">
-        <h2 class="section-title">Чим ми займаємося</h2>
+      <section class="projects section">
+
+        <div class="container">
+          <h2 class="section-title">Чим ми займаємося</h2>
         <ul class="list projects-list">
-          <li>
+          <li class="projects-item">
             <img
               src="./images/image-1.jpg"
               alt="людина набирає текст на клавіатурі"
@@ -87,7 +100,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/image-2.jpg"
               alt="людина тримає телефон перед єкраном ноутбука"
@@ -95,7 +108,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/image-3.jpg"
               alt="людина тримає планшет в руках"
@@ -104,9 +117,10 @@
             />
           </li>
         </ul>
+        </div>
       </section>
       <!-- Our team -->
-      <section class="team">
+      <section class="team section">
         <h2 class="section-title">Наша команда</h2>
         <ul class="list team-list">
           <li>
