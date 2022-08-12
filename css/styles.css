@@ -201,9 +201,9 @@ img {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background: #188CE8;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /* Стилі секциї Features */
@@ -303,8 +303,7 @@ border-radius: 4px;
 .logo-footer {
   color: #ffffff;
 }
-
-.footer-list {
+.footer-address {
   margin-top: 20px;
 }
 
